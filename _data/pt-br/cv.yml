@@ -2,100 +2,122 @@
   type: map
   contents:
     - name: Nome Completo
-      value: Albert Einstein
-    - name: Data de Nascimento
-      value: 14 de março de 1879
+      value: Fernando Vieira Costa Júnior
+    - name: Nome de autor
+      value: Fernando Costa Jr. / F. Costa Jr.
+    - name: Email
+      value: <a href="mailto:Fernando.VIEIRACOSTAJUNIOR@umons.ac.be">Fernando.VIEIRACOSTAJUNIOR@umons.ac.be</a>
     - name: Idiomas
-      value: Inglês, Alemão
+      value: Francês (fluente), Inglês (fluente), Português (nativo)
+
+- title: Situação profissional
+  type: time_table
+  contents:
+    - title: Posição atual
+      institution: Université de Mons, Bélgica
+      year: 2023 - presente
+      items:
+        - Pesquisador posdoutoral FNRS (Chargé de Recherches)
+        - Membro do <a href="https://math.umons.ac.be/prst/fr/">Service de Probabilités et Statistique</a>
+
+    - title: Posições anteriores
+      institution: Avignon Université, França
+      year: 2021 - 2023
+      items:
+        - Professor pesquisador temporário do <a href="https://math.univ-avignon.fr">Laboratoire de Mathématiques d'Avignon</a> (L.M.A.)
+        - Membro do grupo Systèmes Dynamiques et Géométrie (SDG)
+        - Professor de Análise e Álgebra para alunos de primeiro e último ano da graduação
 
 - title: Educação
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurique, Suíça
-      year: 1905
+    - title: Doutorado em Matemática
+      institution: Université Clermont Auvergne, França
+      year: 2018 - 2021
       description:
-        - Descrição 1.
-        - Descrição 2.
-        - title: Descrição 3.
-          contents:
-            - Sub-descrição 1.
-            - Sub-descrição 2.
-    - title: Diploma de ensino federal
-      institution: Eidgenössische Technische Hochschule, Zurique, Suíça
-      year: 1900
+        - <b>Título:</b> <a href="https://hal.science/tel-03268951/document" target="_blank">Hypercyclic vectors and algebras</a>
+        - <b>Orientador:</b> Frédéric Bayart
+    - title: Mestrado em Matemática
+      institution: Universidade Federal da Paraíba, Brasil
+      year: 2016 - 2018
       description:
-        - Descrição 1.
-        - Descrição 2.
+        - <b>Título:</b> <a href="https://repositorio.ufpb.br/jspui/bitstream/123456789/11235/1/Arquivototal.pdf" target="_blank">A geometria de L(mRn) e aplicações</a>
+        - <b>Orientador:</b> Daniel Pellegrino
+    - title: Licenciatura em Matemática
+      institution: Universidade Federal de Alagoas, Campus Arapiraca, Brasil
+      year: 2012 - 2015
+      description:
+        - <b>Título:</b> <a href="https://ud10.arapiraca.ufal.br/repositorio/publicacoes/1428" target="_blank">Teorias de Integração</a>
+        - <b>Orientador:</b> Ornan Oliveira
 
-- title: Experiência
+- title: Responsabilidades científicas
   type: time_table
   contents:
-    - title: Professor de Física Teórica
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Descrição 1.
-        - Descrição 2.
-        - title: Descrição 3.
-          contents:
-            - Sub-descrição 1.
-            - Sub-descrição 2.
-    - title: Professor Visitante
-      institution: California Institute of Technology, Pasadena, Califórnia, EUA
-      year: 1933
-      description:
-        - Descrição 1.
-        - Descrição 2.
+    - title: Coordenador do projeto PEPS "Dynamique linéaire des shifts sur arbre"
+      year: 2023 - 2024
+    - title: Mebro do conselho do Laboratório de Matemática de Avignon
+      year: 2021 - 2023
+    - title: Membro do projeto ANR "<a href="https://front.math.cnrs.fr/contact.html">Frontiers of Operator Theory</a>"
+      year: 2018 - 2022
+    - title: Revisor do MathSciNet
+      year: since 2023
 
-    - title: Diretor
-      institution: Kaiser Wilhelm Institute for Physics, Berlim, Alemanha.
-      year: 1917-1933
-
-    - title: Professor de Física Teórica
-      institution: Karl-Ferdinand University, Praga, Tchecoslováquia
-      year: 1911 - 1917
-      description:
-
-    - title: Professor Associado de Física Teórica
-      institution: University of Zurich, Zurique, Suíça
-      year: 1909 - 1911
-
-- title: Projetos de Código Aberto
-  type: time_table
+- title: Visitas
+  type: list
   contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-atual
-      description: Uma variação do tema al-folio com suporte a múltiplos idiomas.
+    - Pesquisador visitante, Fevereiro de 2024, Universitat Politècnica, València, Espanha
+    - Pesquisador visitante, Junho de 2023, École Nationale Supérieure d’Ingénieurs de Bretagne Sud, Vannes, França
 
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-atual
-      description: Um tema Jekyll bonito, simples, limpo e responsivo para acadêmicos.
-
-- title: Honrarias e Prêmios
-  type: time_table
+- title: Palestras e mini-cursos
+  type: nested_list
   contents:
-    - year: 1921
+    - title: Congressos internacionais
       items:
-        - Prêmio Nobel de Física
-        - Medalha Matteucci
-    - year: 2029
+        - (June 2023) <a href="/talks/2023_Talk_Grece_ACOTCA.pdf" target="_blank"><b>Fractals and common hypercyclicity</b></a>, Advanced Courses in Operator Theory and Complex Analysis 2023, Aristotle University of Thessaloniki, Grécia
+        - (June 2023) <a href="/talks/2023_Talk_Italy_45th_SSRA.pdf" target="_blank"><b>Self-similar fractals and common hypercyclicity</b></a>, 45th Summer Symposium in Real Analysis, Università degli Studi della Campania "L. Vanvitelli", Caserta, Itália
+        - (June 2023) <a href="/talks/2023_Talk_Mons_Meeting_FA.pdf" target="_blank"><b>Self-similar fractals and common hypercyclicity</b></a>, Annual meetings of the FNRS group - Functional Analysis, Université de Mons, Mons, Bélgica
+        - (December 2021) <a href="/talks/2021_Poster_FTO-FCostaJr.pdf" target="_blank"><b>Hypercyclic algebras&#58; what we do and do not know</b></a>, Frontier of Operator Theory, CIRM, Marselha, França (Pôster)
+        - (June 2019) <a href="/talks/2019_Talk-ACOTCA-FCostaJr.pdf" target="_blank"><b>Common Hypercyclic Algebras</b></a>, Advanced Courses in Operator Theory and Complex Analysis 2019, Université Gustave Eiffel, Champs-sur-Marne, França
+    - title: Seminários de matemática
       items:
-        - Medalha Max Planck
+        - (October 2023) <a href="/talks/2023_Talk-ADA-Calais-October.pdf" target="_blank"><b>Introduction aux algèbres hypercycliques</b></a>, Algèbre, Dynamique et Arithmétique Seminar, Laboratory of pure and applied mathematics Joseph Liouville, Université du Littoral Côte d'Opale, Calais, França
+        - (October 2023) <a href="/talks/2023_Talk-AF-Lille-October.pdf" target="_blank"><b>Hypercyclicité simultannée en 2D</b></a>, Functional Analysis Seminar, Paul Painlévé Mathematics Laboratory, Université de Lille, Lille, França
+        - (September 2022) <a href="/talks/2022_Expose-CMI.pdf" target="_blank"><b>Common hypercyclicity in several dimensions</b></a>, Séminaire d’Analyse et Géométrie, Institut de Mathématiques de Marseille, Aix-Marseille Université, Marselha, França
+        - (June 2022) <a href="/talks/2022_Expose-Rauzy.pdf" target="_blank"><b>The origins of Linear Dynamics</b></a>, Rauzy Seminar (FRUMAM), Institut de Mathématiques de Marseille, Aix-Marseille Université, Marselha, França
+        - (Novembre 2021) <a href="/talks/2021_Talk-Seminaire-Lille-2-FCostaJr.pdf" target="_blank"><b>À la recherche d’une algèbre hypercyclique fermée</b></a>, Functional Analysis Seminar, Paul Painlévé Mathematics Laboratory, Université de Lille, Lille, França
+        - (Novembre 2021) <a href="/talks/2021_Talk-Seminaire-LMA-FCostaJr.pdf" target="_blank"><b>Vecteurs et algèbres hypercycliques</b></a>, Systèmes Dynamiques et Géométrie Seminar, Laboratoire de Mathématiques d'Avignon, Avignon Université, Avinhão, França
+        - (June 2021) <a href="/talks/2021_Talk-Seminaire-Lille-1-FCostaJr.pdf" target="_blank"><b>Convolution operators supporting hypercyclic algebras</b></a>, Functional Analysis Seminar, Paul Painlévé Mathematics Laboratory, Université de Lille, Lille, França
+        - (April 2019) <a href="/talks/2019_Talk-Seminaires-des-Doctorants-LMBP-FCostaJr.pdf" target="_blank"><b>Une exposition de l'hypercyclicité</b></a>, Doctorate students seminar, Laboratoire de Mathématiques Blaise Pascal, Université Clermont-Auvergne, Clermont-FD, França
+    - title: Mini-cursos
+      items:
+        - (August 2015) "Sistemas axiomáticos formais e aplicações", II EMAAL, UFAL Arapiraca, Brasil <br> (<a href="/talks/minicursos/sistemas-ax/Minicurso-de-logica-matematica.pdf" target="_blank"><b>Notas de Aula</b></a>) (<a href="/talks/minicursos/sistemas-ax/Minicurso-de-logica-matematica-slides.pdf" target="_blank"><b>Slides</b></a>)
+        - (August 2015) "Teoria dos números e a lei de reciprocidade quadrática", III Colóquio de Matemática da Região Norte (SBM), UFAM, Manaus, Brasil <br> (<a href="/talks/minicursos/lei-recipro/Teoria-dos-Numeros-e-a-Lei-de-Reciprocidade-Quadratica.pdf" target="_blank"><b>Notas de aula</b></a>) (<a href="/talks/minicursos/lei-recipro/Teoria-dos-Numeros-e-a-Lei-de-Reciprocidade-Quadratica-slides.pdf" target="_blank"><b>Slides</b></a>)
+    - title: Divulgação científica
+      items:
+        - (Junho 2019) "Le travail d'un mathematician, comment se passe-t-il ?", Centre FLEURA, Université Clermont-Auvergne, Clermont-FD, França
 
 - title: Interesses Acadêmicos
   type: nested_list
   contents:
-    - title: Tópico 1.
+    - title: Sistemas Dinâmicos Lineares (Teoria de Operadores)
       items:
-        - Descrição 1.
-        - Descrição 2.
-    - title: Tópico 2.
+        - Hiperciclicidade, hiperciclicidade comum/\(U\)-frequente/frequente/disjunta, álgebras hipercíclicas
+        - Recorrência, álgebras recorrentes
+    - title: Constantes de Bohnenblust-Hille
       items:
-        - Descrição 1.
-        - Descrição 2.
+        - Cálculo de constantes truncadas usando o computador
+        - Comportamento assintótico via métodos de interpolação
+    - title: Lineabilidade, espaçabilidade, algebrabilidade
+      items:
+        - Algebrabilidade do conjunto de vetores hipercíclicos/recorrentes
+        - \((\alpha,\beta)\)-lineabilidade e noções mais gerais
+
+- title: Publicações
+  type: list
+  contents:
+    - Acesse a página <a href="/pt-br/publications/">Publicações</a>
 
 - title: Outros Interesses
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b>Hobbies&#58;</b> guitarra, violão, dark souls, cavaco/banjo, batucada, dark souls, trilha, corrida, dark souls, escalada, natação, etc... Eu também gosto de dark souls.
