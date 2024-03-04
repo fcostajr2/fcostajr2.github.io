@@ -1,26 +1,32 @@
 ---
 page_id: about
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: ## <a href='https://math.umons.ac.be/ps/fr/#:~:text=Le%20service%20assure%20les%20cours,du%20master%20en%20sciences%20mathématiques.'>Service de Probabilités et Statistique</a>. Université de Mons, Département de Mathématique.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_color.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Université de Mons</p>
+    <p><a href="https://math.umons.ac.be/fr/" target="_blank">Département de Mathématique</a></p>
+    <p>20 Place du Parc</p>
+    <p>Mons 7000, Bélgica</p>
 
 news: true # includes a list of news items
+latest_posts: false ### ATIVAR DEPOIS??? ### # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm Fernando Vieira Costa Júnior, a Mathematician from Brazil :smile:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/multi-language-al-folio/publications/) automatically.
+Formed with focus on Analysis, I have a particular sympathy for Algebra, Number Theory and Logic. Teaching for me is a passion ! In this page I talk a bit about myself and about my job. My students will find here support material for my courses.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My main research interest is that of Linear Dynamics and Operator Theory. I am also interested in the implementation of mathematical algorithms on Mathematica and Python.
+
+At the moment I am a FNRS postdoctoral researcher at the Mathematics Department of the University of Mons.
+
+You can contact me through the email <a href="mailto:fernando.vieiracostajunior@umons.ac.be"><i>fernando.vieiracostajunior@umons.ac.be</i></a>, although, shall you need a quick response, it is best to write to my personal email <it>fv [dot] costajunior [at] gmail [dot] com</it>.
