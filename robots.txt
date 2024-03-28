@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://fcostajr.github.io/sitemap.xml
+Sitemap: https://fcostajr2.github.io/sitemap.xml
